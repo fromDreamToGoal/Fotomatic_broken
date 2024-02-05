@@ -16,7 +16,7 @@ html {
 
 .button {
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color:  #9dc20b;
   color: white;
 }
 
@@ -42,7 +42,6 @@ header {
   height: 85px;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  margin-left: 30px;
 }
 
 header .content {
@@ -68,7 +67,6 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
-  margin-right: 30px;
 }
 
 header .icon {
@@ -87,19 +85,37 @@ header .mobile {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 760px) {
-header {
-  position: relative;
-  border-bottom: none;
-}
-}
-
 header .content {
   margin: .125rem;
 }
 
 nav li {
   padding-left: 1.5rem;
+}
+
+@media only screen and (min-width: 760px) {
+header .tablet {
+  display: none;
+}
+  
+}
+
+@media only screen and (max-width: 760px) {
+header { 
+  position: relative;
+  border-bottom: none;
+}
+
+header .content {
+  justify-content: right;
+}
+.tablet {
+  display: inline-flex;
+}
+
+header .desktop {
+  display: none;
+}
 }
 
 @media only screen and (max-width: 450px) {
@@ -457,8 +473,3 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
-  footer .content {
-    font-size: .625rem;
-  }
-}
