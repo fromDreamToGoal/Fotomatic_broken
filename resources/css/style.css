@@ -28,11 +28,6 @@ html {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
-}
 
 /* Header */
 
@@ -103,7 +98,7 @@ header .tablet {
 @media only screen and (max-width: 760px) {
 header { 
   position: relative;
-  border-bottom: none;
+  
 }
 
 header .content {
@@ -118,16 +113,25 @@ header .content {
 header .desktop {
   display: none;
 }
+header .content .tablet .button {
+  padding: .430rem;
+}
+
 }
 
 @media only screen and (max-width: 450px) {
-  header .desktop {
+  header .desktop, header .tablet {
     display: none;
+  }
+
+  header {
+    height: 3rem;
   }
 
   header .mobile {
     display: block;
     width: 100%;
+    
   }
 
   header .content {
