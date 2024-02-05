@@ -237,6 +237,14 @@ header .mobile {
   width: 100%;
 }
 
+.content h2 {
+  margin-top: 40px;
+  line-height: 1.2;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+
 .feature {
   flex: 1;
   padding: 2rem;
