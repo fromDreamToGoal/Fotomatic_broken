@@ -422,6 +422,14 @@ footer {
   padding: 1.5rem 2rem;
 }
 
+span.copyright {
+  font-size: 0.75rem;
+}
+
+span.location {
+  font-size: 0.75rem;
+}
+
 footer .content {
   color: white;
   display: flex;
