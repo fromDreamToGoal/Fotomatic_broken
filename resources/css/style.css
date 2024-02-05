@@ -109,8 +109,10 @@ header {
 header .content {
   justify-content: right;
 }
+
 .tablet {
   display: inline-flex;
+  
 }
 
 header .desktop {
