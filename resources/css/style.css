@@ -368,6 +368,17 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  height: 200px;
+  display: grid;
+  align-content: center;
+}
+
+#quotes-section div span  {
+  margin-right: 30px;
+  font-family: 'Palationo';
+  font-size: 1.9rem;
+  font-style: italic;
+
 }
 
 #quotes-section content {
