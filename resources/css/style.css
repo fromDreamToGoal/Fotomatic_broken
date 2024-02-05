@@ -232,6 +232,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
+.image-container img {
+  height: 65%;
+  width: 100%;
+}
+
 .feature {
   flex: 1;
   padding: 2rem;
