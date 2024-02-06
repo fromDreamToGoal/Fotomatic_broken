@@ -123,6 +123,10 @@ header .content .tablet .button {
     display: none;
   }
 
+  .main-content {
+    top: 3rem; /* To offset for fixed header. */
+  }
+  
   header {
     height: 3rem;
     position: fixed;
