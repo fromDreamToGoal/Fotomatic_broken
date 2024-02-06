@@ -97,8 +97,7 @@ header .tablet {
 
 @media only screen and (max-width: 760px) {
 header { 
-  position: relative;
-  
+  position: absolute;
 }
 
 header .content {
@@ -126,10 +125,11 @@ header .content .tablet .button {
 
   header {
     height: 3rem;
+    position: fixed;
   }
 
   header .mobile {
-    display: block;
+    display: inline-flex;
     width: 100%;
     
   }
@@ -220,7 +220,6 @@ header .content .tablet .button {
     align-items: center;
     justify-content: center;
     height: 28rem;
-    
   }
 
   #sign-up-cta {
