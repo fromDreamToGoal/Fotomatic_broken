@@ -126,7 +126,7 @@ header .content .tablet .button {
   .main-content {
     top: 3rem; /* To offset for fixed header. */
   }
-  
+
   header {
     height: 3rem;
     position: fixed;
@@ -315,6 +315,17 @@ header .content .tablet .button {
 }
 
 @media only screen and (max-width: 760px) {
+  #features-section {
+    padding: 6% 3%;
+    background-color: #f3f3f3;
+    gap: 5%;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+
   .feature h2 {
     font-size: 1.125rem;
     line-height: 1.3;
@@ -326,18 +337,34 @@ header .content .tablet .button {
     line-height: 1.4;
   }
 }
+  @media only screen and (max-width: 450px) {
+    #features-section {
+      flex-flow: column;
+      padding: 0;
+    }
 
-@media only screen and (max-width: 760px) {
-  #features-section {
-    flex-flow: column;
-    padding: 0;
+    #feature-1 {
+      background-color: #9f9f9f;
+      padding-top: 1rem;
+    }
+
+    .feature h2 {
+      margin-top: .788rem;
+    }
+
+    .feature h3 {
+      padding-bottom: 1.7rem;
+    }
+
+    .feature .image-container {
+      width: 100%;
+    }
+
+    .content h2 {
+      margin-top: 1rem;
+    }
   }
 
-  .feature {
-    margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
-  }
-}
 
 /* Filters Section */
 
